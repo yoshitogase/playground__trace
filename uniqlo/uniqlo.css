@@ -1,0 +1,390 @@
+.container {
+    width: 960px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+header {
+    width: 960px;
+}
+
+.head-wrap {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    margin: 0px auto;
+    padding-top: 0px;
+    background-color: white;
+    background: none;
+    position: relative;
+    margin: 0 auto 15px auto;
+    height: 50px;
+    line-height: 90;
+}
+
+.nav_logo {
+    float: left;
+    font-size: 0%;
+    line-height: 100%;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    text-align: left;
+    zoom: 1;
+}
+
+.nav_header {
+    float: left;
+    height: 50px;
+    width: 910px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_header_list {
+    height: inherit;
+    font-size: 0%;
+    line-height: 100%;
+    float: left;
+}
+
+.nav_header_searchbox {
+    height: inherit;
+    width: 114;
+    font-size: 0%;
+    line-height: 100%;
+    float: left;
+    display: block;
+    background-color: black;
+}
+
+.search {
+    margin: 13px 10px;
+}
+
+.searchbox {
+    width: 42px;
+    display: black;
+    border: 1px solid black;
+    height: 22px;
+    float: left;
+    padding: 0px 22px 0px 4px;
+}
+
+
+
+
+
+.content {
+    width: 940px;
+    margin: inherit;
+}
+
+.first {
+    margin-bottom: 40px;
+    max-width: 940;
+    position: relative;
+    padding: 0px;
+    width: 100%;
+    height: 494px;
+    border: none;
+    box-shadow: none;
+    left: 0;
+    background: none;
+}
+
+.first_img {
+    width: 620px;
+    float: left;
+    max-width: 100%;
+    max-width: 100%;
+}
+
+.first_meta {
+    float: right;
+    width: 300px;
+    padding: 0 0 0 0;
+}
+
+.first_new_model {
+    background: #378694;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 0 8px 0;
+    vertical-align: middle;
+}
+
+.first_description {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 5px 0 5px 0;
+}
+
+.first_description2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+.first_meta2 {
+    margin-bottom: 17px;
+    float: right;
+    width: 300px;
+}
+
+.size {
+    font-weight: bold;
+    margin-bottom: 5px;        
+    font-size: 14px;
+    line-height: 1em;
+    font-family: 'Uniqlo Pro Regular', 'News Cycle';
+}
+
+.men {
+    background: #000082;
+    color: white;
+    display: inline-block;
+    line-height: 20px;
+    font-size: 14px;
+    margin: 0 10px 0 0;
+    padding: 0 10px;
+}
+
+.productpropro {
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.cost {
+    font-size: 30px;
+    margin-top: 3px;
+    display: block;
+    font-family: 'Uniqlo Pro Regular', 'News Cycle';
+    position: relative;
+    line-height: 1em;
+    letter-spacing: 0.025em;
+}
+
+.underscore_description {
+    font-size: 13px;
+    position: absolute;
+    right: 0;
+    text-decoration: underline;
+    color: black;
+    line-height: 16px;
+    font-family: "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", 游ゴシック, "Yu Gothic", 游ゴシック体, YuGothic, メイリオ, Meiryo, sans-serif;
+    letter-spacing: 0;
+}
+
+.hoge {
+    top: 365px;
+    right: 0;
+    position: absolute;
+    width: 300px;
+}
+
+.hoge2 {
+    float: left;
+    width: 100px;
+}
+
+.hoge3 {
+    padding-left: 110px;
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    line-height: 18px;
+}
+
+.hoge4 {
+    padding-left: 110px;
+
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+
+
+
+.head {
+    display: flex;
+    justify-content: flex-start;
+    width: 940px;
+    margin: inherit;
+    margin-bottom: 27px;
+}
+
+.title {
+    height: 42px;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 42px;
+}
+
+/* flexbox */
+.collection {
+    width: 940px;
+    margin: inherit;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.collection_img {
+    width: 620px;
+    margin: 0 20px 0 0;
+}
+
+.side_desc {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.announce {
+    padding: 0 0 18px 0;
+}
+
+.light_blue_flag {
+    background: #378694;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 0 8px 0;
+    vertical-align: middle;
+}
+
+.subtext {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 5px 0;
+
+}
+
+.lead {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.item_info {
+    margin-bottom: 17px;
+}
+
+.women_flag {
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 10px 0 0;
+    padding: 0 10px;
+    background: #ff0000;
+}
+
+.size {
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 1em;
+    font-family: 'Uniqlo Pro Regular', 'News Cycle';
+}
+
+.middle_product_name {
+    margin-bottom: 3px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.middle_cost {
+    font-size: 30px;
+    display: block;
+    font-family: 'Uniqlo Pro Regular', 'News Cycle';
+    position: relative;
+    line-height: 1em;
+    letter-spacing: 0.025em;
+    display: flex;
+}
+
+.tax {
+    display: inline-block;
+    font-size: 10px;
+    color: #7d7d7d;
+    line-height: 1em;
+    align-self: flex-end;
+}
+
+.underscore_link {
+    font-size: 13px;
+    position: absolute;
+    right: 0;
+    text-decoration: underline;
+    color: black;
+    line-height: 16px;
+    font-family: "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", 游ゴシック, "Yu Gothic", 游ゴシック体, YuGothic, メイリオ, Meiryo, sans-serif;
+    letter-spacing: 0;
+    align-self: flex-end;
+}
+
+.men_flag {
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 10px 0 0;
+    padding: 0 10px;
+    background: #000082;
+}
+
+.wipe {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.wipe_image {
+    width: 100px;
+}
+
+.wipe_desc {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wipe_title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    line-height: 18px;
+}
+
+.wipe_mini_desc {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.side_desc_1 {
+    flex-direction: column;
+}
+
+.side_desc_2 {
+    display: flex;
+}

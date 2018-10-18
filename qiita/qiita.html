@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Qiita</title>
+    <link rel="stylesheet" type="text/css" href="qiita.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+</head>
+
+<body>
+    <div class=all_wrapper>
+        <div class="top_header">
+            <div class=top_header_container>
+                <div class="top_header_start">
+                    <div class="top_header_logo">Qiita</div>
+                    <div>
+                        <div class="top_header_selector"><span class="selector">▽</span></div>
+                    </div>
+                    <div>
+                        <div class="top_header_community">コミュニティ<span class="selector2">▽</span></div>
+                    </div>
+                    <form class="top_hero_search" action="/search" method="get">
+                        <input class="top-header_search_input" type="text" autocomplete="off" placeholder="キーワードを入力"
+                            name="q" required="">
+                        <div class="search"></div>
+                    </form>
+                </div>
+                <div class="top_header_end">
+                    <div class="top-header_signupbutton">ユーザ登録</div>
+                    <div class="top_header_loginlink">ログイン</div>
+                </div>
+            </div>
+        </div>
+        <div class="home is_anonymous">
+            <div class="top_hero">
+                <div class="top_hero_inner">
+                    <div class="top_hero_start">
+                        <h1 class="top_hero_title">Hello hackers !</h1>
+                        <p class="top_hero_lead">Qiitaは、エンジニアリングに関する知識を記録・共有するためのサービスです。コードを書いていて気づいたことや、自分がハマったあの仕様について、他のエンジニアと知見を共有しましょう
+                            ;)</p>
+                    </div>
+                    <div class="top_hero_end">
+                        <div class="sns_wrapper">
+                            <div class="sns">GitHub</div>
+                            <div class="sns">Twitter</div>
+                            <div class="sns">Google</div>
+                        </div>
+                        <div class="top_hero_separator">OR</div>
+                        <form class="top_hero_signup">
+                            <div class="signup_form_group">
+                                <label class="signup_form_label">ユーザー名</label>
+                                <input class="signup_form_input" placeholder="qiitan">
+                            </div>
+                            <div class="signup_form_group">
+                                <label class="signup_form_label">メールアドレス</label>
+                                <input class="signup_form_input" placeholder="qiitan@qiita.com">
+                            </div>
+                            <div class="signup_form_group">
+                                <label class="signup_form_label">パスワード</label>
+                                <input class="signup_form_input" placeholder="********">
+                            </div>
+                            <span class="signup_form_helptext">8文字以上、英・数・記号が使えます</span>
+                        </form>
+                        <div class="auth_isnotrobot">
+                            <div data-sitekey="6LfNkiQTAAAAAM3UGnSquBy2akTITGNMO_QDxMw6" class="g-recaptcha ">
+                                <div style="width: 304px; height: 78px;">
+                                    <div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=2&amp;k=6LfNkiQTAAAAAM3UGnSquBy2akTITGNMO_QDxMw6&amp;co=aHR0cHM6Ly9xaWl0YS5jb206NDQz&amp;hl=ja&amp;v=v1538980283511&amp;size=normal&amp;cb=mgbz4oqmz4al"
+                                            width="304" height="78" role="presentation" name="a-7bh02gdp3ab1"
+                                            frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea
+                                        id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"
+                                        style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="signup_form_button_area">
+                            <div class="signup_form_button"><button>登録する</button></div>
+                            <div class="signup_form_attention">登録には<a class="hoge" href="/terms">利用規約</a>に同意する必要があります。</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="first_menu">
+                    <span class="trend">トレンド</span>
+                    <span class="milestone">マイルストーン</span>
+                </div>
+                <div class="second_menu">
+                    <div class="second_menu_header">
+                        <div class="second_menu_header_title">
+                            <div class="second_menu_header_title_label">トレンド</div>
+                            <div class="second_menu_header_title_sublabel">最近人気の記事を毎日5時/17時に更新</div>
+                        </div>
+                        <div class="second_menu_header_filter">
+                            <p class="second_menu_header_filter_label_part">1日</p>
+                            <p class="second_menu_header_filter_label_part">週間</p>
+                            <p class="second_menu_header_filter_label_part">月間</p>
+                        </div>
+                    </div>
+                    <div class="second_menu_content">
+                        <div class="second_menu_content_list">
+                            <div class="second_menu_content_img">
+                                <img src="https://qiita-image-store.s3.amazonaws.com/0/139954/profile-images/1473721040"
+                                    alt="akira_">
+                            </div>
+                            <div class="second_menu_content_title">
+                                hoge
+                            </div>
+                        </div>
+                        <div class="second_menu_content_list">
+                            <div class="second_menu_content_img">
+                                <img src="https://qiita-image-store.s3.amazonaws.com/0/139954/profile-images/1473721040"
+                                    alt="akira_">
+                            </div>
+                            <div class="second_menu_content_title">
+                                hoge
+                            </div>
+                        </div>
+                        <div class="second_menu_content_list">
+                            <div class="second_menu_content_img">
+                                <img src="https://qiita-image-store.s3.amazonaws.com/0/139954/profile-images/1473721040"
+                                    alt="akira_">
+                            </div>
+                            <div class="second_menu_content_title">
+                                hoge
+                            </div>
+                        </div>
+                        <div class="second_menu_content_list">
+                            <div class="second_menu_content_img">
+                                <img src="https://qiita-image-store.s3.amazonaws.com/0/139954/profile-images/1473721040"
+                                    alt="akira_">
+                            </div>
+                            <div class="second_menu_content_title">
+                                hoge
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second_menu_content">
+                        <div class="second_menu_content_list">
+                            <div class="second_menu_content_img">
+                                <img src="https://qiita-image-store.s3.amazonaws.com/0/139954/profile-images/1473721040"
+                                    alt="akira_">
+                            </div>
+                            <div class="second_menu_content_title">
+                                hoge
+                            </div>
+                        </div>
+                        <div class="second_menu_content_list">
+                            <div class="second_menu_content_img">
+                                <img src="https://qiita-image-store.s3.amazonaws.com/0/139954/profile-images/1473721040"
+                                    alt="akira_">
+                            </div>
+                            <div class="second_menu_content_title">
+                                hoge
+                            </div>
+                        </div>
+                        <div class="second_menu_content_list">
+                            <div class="second_menu_content_img">
+                                <img src="https://qiita-image-store.s3.amazonaws.com/0/139954/profile-images/1473721040"
+                                    alt="akira_">
+                            </div>
+                            <div class="second_menu_content_title">
+                                hoge
+                            </div>
+                        </div>
+                        <div class="second_menu_content_list">
+                            <div class="second_menu_content_img">
+                                <img src="https://qiita-image-store.s3.amazonaws.com/0/139954/profile-images/1473721040"
+                                    alt="akira_">
+                            </div>
+                            <div class="second_menu_content_title">
+                                hoge
+                            </div>
+                        </div>
+                        <div class="second_menu_content">
+                            <div class="second_menu_content_list">
+                                <div class="second_menu_content_img">
+                                    <img src="https://qiita-image-store.s3.amazonaws.com/0/139954/profile-images/1473721040"
+                                        alt="akira_">
+                                </div>
+                                <div class="second_menu_content_title">
+                                    hoge
+                                </div>
+                            </div>
+                            <div class="second_menu_content_list">
+                                <div class="second_menu_content_img">
+                                    <img src="https://qiita-image-store.s3.amazonaws.com/0/139954/profile-images/1473721040"
+                                        alt="akira_">
+                                </div>
+                                <div class="second_menu_content_title">
+                                    hoge
+                                </div>
+                            </div>
+                            <div class="second_menu_content_list">
+                                <div class="second_menu_content_img">
+                                    <img src="https://qiita-image-store.s3.amazonaws.com/0/139954/profile-images/1473721040"
+                                        alt="akira_">
+                                </div>
+                                <div class="second_menu_content_title">
+                                    hoge
+                                </div>
+                            </div>
+                            <div class="second_menu_content_list">
+                                <div class="second_menu_content_img">
+                                    <img src="https://qiita-image-store.s3.amazonaws.com/0/139954/profile-images/1473721040"
+                                        alt="akira_">
+                                </div>
+                                <div class="second_menu_content_title">
+                                    hoge
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="third_menu">
+                    <div class="third_img">
+                        <img src="https://tpc.googlesyndication.com/simgad/2459613208871509451">
+                    </div>
+                    <div class="third_desc">
+                        <p>hoge</p>
+                    </div>
+                    <div class="third_lanking">
+                        <div class="lanking_container">
+                            <div class="lanking_header">
+                                <p>〇〇ランキング</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>1 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>2 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>3 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>4 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>5 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>6 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>7</p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>8 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>9 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>10 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third_lanking">
+                        <div class="lanking_container">
+                            <div class="lanking_header">
+                                <p>〇〇ランキング</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>1 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>2 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>3 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>4 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>5 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>6 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>7</p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>8 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>9 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>10 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third_lanking">
+                        <div class="lanking_container">
+                            <div class="lanking_header">
+                                <p>〇〇ランキング</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>1 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>2 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>3 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>4 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>5 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>6 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>7</p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>8 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>9 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                            <div class="lanking_content">
+                                <p>10 </p>
+                                <img src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/bcef5ec765c6eb84e5ec3300ce1ff16850bb3e14/medium.jpg?1512821048">
+                                <p> hoge</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third_lanking">
+                        <p>コミュニティスポンサー</p>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>footer</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
